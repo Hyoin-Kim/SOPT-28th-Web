@@ -1,0 +1,29 @@
+/*slider item*/
+img {
+    
+    width: 900px; height:600px;
+}
+
+.slider{width: 900px; height:600px; position: relative; margin-left: 300px; margin-top:50px;margin-bottom: 10px;}
+.slider__01{ position: absolute; }
+.slider__02{ position: absolute; }
+.slider__03{ position: absolute; }
+.slider__04{ position: absolute; }
+.slider__05{ position: absolute; }
+.slider__bg{ position: absolute; width: 500px; height:300px; background-color: black; z-index: 0; }
+
+/*btn*/
+.btn__div{text-align:center; width: 400px; margin-left: 550px; margin-top:50px;}
+
+/*function*/
+.showing{ z-index: 1; animation: fadeIn 0.5s linear; }
+
+/*animation*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
